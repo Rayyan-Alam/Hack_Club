@@ -1,0 +1,58 @@
+body {
+  background-color: #FDB3C2;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #A41F39;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: #F891A5;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Caveat Brush', sans-serif
+}
+
+ul li a:hover {
+  color: #440169;
+  background-color: #F891C2;
+}
+
+img {
+  float: right;
+  margin: 0px 0px 15px 20px;
+}
+
+h1 {
+    font-family: "Caveat", sans-serif;
+    font-size: 75px;
+    color: #440169;
+    font-weight: bold;
+}
+
+h2 {
+  font-family: "Caveat Brush", sans-serif;
+  font-size: 45px;
+  color:#a401a2;
+}
+
+.formatted p {
+  font-family: Helvetica;
+  font-size: 25px;
+}
+
+ol{
+  font-family: Helvetica;
+  font-size: 25px;
+}

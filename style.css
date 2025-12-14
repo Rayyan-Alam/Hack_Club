@@ -6,20 +6,19 @@ body {
   background-color: #FDB3C2;
 }
 
-ul {
+nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #200038;
+  border-radius: 25px;
 }
 
-ul li {
+nav a {
   float: left;
-}
-
-ul li a {
   display: block;
+  border-radius: 10px;
   color: #F891A5;
   text-align: center;
   padding: 14px 16px;
@@ -28,7 +27,12 @@ ul li a {
   font-family: 'Caveat Brush', sans-serif
 }
 
-ul li a:hover {
+nav a:hover {
+  color: #440169;
+  background-color: #F891C2;
+}
+
+nav a.active {
   color: #440169;
   background-color: #F891C2;
 }
@@ -46,29 +50,35 @@ h2 {
   color:#ee06ff;
 }
 
-.formatted p,     /* This excludes the footer */
-ol {
+.formatted p,     /* This excludes the footer since I don't want to change font and size of footer */
+ol,
+label,
+input,
+textarea,
+select,
+button {
   font-family: Helvetica;
   font-size: 25px;
 }
 
 p,
-ol {
+ol,
+label {
   color:aliceblue;
 }
 
 /* Unvisited link */
-a:link {
+.notnav a:link {
   color: pink;
 }
 
 /* Visited link */
-a:visited {
+.notnav a:visited {
   color: rgb(140, 0, 255);
 }
 
 /* Mouse over link */
-a:hover {
+.notnav a:hover {
   color: #ee06ff;
 }
 
@@ -91,15 +101,4 @@ em {
 
 .embed-list iframe {
   display: block;
-}
-
-label,
-input,
-select,
-textarea,
-button {
-  font-family: Helvetica;
-  font-size: 25px;
-  padding: 0px 16px;
-  color:aliceblue;
 }

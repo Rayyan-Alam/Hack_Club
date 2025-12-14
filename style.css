@@ -46,10 +46,14 @@ h2 {
   color:#ee06ff;
 }
 
-.formatted p,
+.formatted p,     /* This excludes the footer */
 ol {
   font-family: Helvetica;
   font-size: 25px;
+}
+
+p,
+ol {
   color:aliceblue;
 }
 

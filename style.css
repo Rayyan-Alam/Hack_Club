@@ -57,8 +57,23 @@ ol {
   color:aliceblue;
 }
 
+/* Unvisited link */
+a:link {
+  color: pink;
+}
+
+/* Visited link */
+a:visited {
+  color: rgb(140, 0, 255);
+}
+
+/* Mouse over link */
+a:hover {
+  color: #ee06ff;
+}
+
 em {
-  color:#ee06ff
+  color:#ee06ff;
 }
 
 .embed-list {

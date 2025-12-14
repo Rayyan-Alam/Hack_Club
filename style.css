@@ -1,4 +1,8 @@
 body {
+  background-image: url("background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-color: #FDB3C2;
 }
 
@@ -7,7 +11,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #A41F39;
+  background-color: #200038;
 }
 
 ul li {
@@ -29,30 +33,54 @@ ul li a:hover {
   background-color: #F891C2;
 }
 
-img {
-  float: right;
-  margin: 0px 0px 15px 20px;
-}
-
 h1 {
     font-family: "Caveat", sans-serif;
     font-size: 75px;
-    color: #440169;
+    color: #fff706;
     font-weight: bold;
 }
 
 h2 {
   font-family: "Caveat Brush", sans-serif;
   font-size: 45px;
-  color:#a401a2;
+  color:#ee06ff;
 }
 
-.formatted p {
+.formatted p,
+ol {
   font-family: Helvetica;
   font-size: 25px;
+  color:aliceblue;
 }
 
-ol{
+em {
+  color:#ee06ff
+}
+
+.embed-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.embed-list li {
+  margin: 0;
+}
+
+.embed-list iframe {
+  display: block;
+}
+
+label,
+input,
+select,
+textarea,
+button {
   font-family: Helvetica;
   font-size: 25px;
+  padding: 0px 16px;
+  color:aliceblue;
 }

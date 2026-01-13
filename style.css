@@ -67,6 +67,12 @@ label {
   color:aliceblue;
 }
 
+/* Margins will not apply to the labels in form */
+p,
+ol {
+  margin-right: 600px;
+}
+
 /* Unvisited link */
 .notnav a:link {
   color: pink;
